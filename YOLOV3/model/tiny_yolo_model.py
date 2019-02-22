@@ -147,7 +147,7 @@ class TINY_YOLO:
             classes: ndarray, classes of objects.
             scores: ndarray, scores of objects.
         """
-        masks = [ [3, 4, 5], [0, 1, 2]]
+        masks = [ [3, 4, 5], [1, 2, 3]]
         anchors = [[10, 14], [23, 27], [37, 58], [81, 82], [135, 269],
                    [344, 319]]
 

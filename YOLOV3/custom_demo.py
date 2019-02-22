@@ -140,19 +140,19 @@ def detect_video(video, yolo, all_classes):
 
 if __name__ == '__main__':
     yolo = YOLO(0.6, 0.5)
-    file = 'data/coco_classes.txt'
+    file = 'data/voc_classes.txt'
     all_classes = get_classes(file)
 
     # detect images in test floder.
-   for (root, dirs, files) in os.walk('images/test'):
-        if files:
-            for f in files:
-                print(f)
-                path = os.path.join(root, f)
-                image = cv2.imread(path)
-                image = detect_image(image, yolo, all_classes)
-                cv2.imwrite('images/res/' + f, image)
+   #for (root, dirs, files) in os.walk('images/test'):
+   #     if files:
+    #        for f in files:
+    #            print(f)
+    #            path = os.path.join(root, f)
+    #            image = cv2.imread(path)
+    #            image = detect_image(image, yolo, all_classes)
+    #            cv2.imwrite('images/res/' + f, image)
 
     # detect videos one at a time in videos/test folder    
-  #  video = 'library1.mp4'
-  #  detect_video(video, yolo, all_classes)
+    video = 'library1.mp4'
+    detect_video(video, yolo, all_classes)
