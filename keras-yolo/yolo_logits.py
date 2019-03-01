@@ -39,7 +39,7 @@ def _main():
 
     with open(test_path) as f:
         test_lines = f.readlines()
-
+    '''
     image_input = Input(shape=(416, 416, 3))
     model = yolo_body(image_input, num_anchors//3, num_classes)
     model.load_weights("model_data/trained_weights_final.h5")
@@ -58,26 +58,42 @@ def _main():
         optimizer=Adam(lr=1e-3) , 
         loss='categorical_crossentropy', metrics=['accuracy']
     )
-
-    #print( len(test_lines) )
-    batch_size = 2
+    '''
+    print( len(test_lines) )
+    batch_size = 3
     
-    trainX = []
-    trainY = []
-
-    for  num in data_generator_wrapper(train_lines, batch_size, input_shape, anchors, num_classes) : 
-        x , y = num
-        trainX.append(x)
-        trainY.append(y)
+    trainX = {}
+    trainY = {}
 
 
-    data_train_generator = ImageDataGenerator()
+    i = 0
+    for  img,dat in data_generator_wrapper(train_lines, batch_size, input_shape, anchors, num_classes) : 
+        #x , y = dat
+        trainX[i] = img
+        trainY[i] = dat
+        #print(x.shape)
+        print(i)
+        #print(img.shape)
+        #print(dat)
+        i+=1
+        if i>=5 :
+            break
+    
 
-    test_generator = data_train_generator.flow(trainX, trainY, batch_size=batch_size), #data_generator_wrapper(train_lines, batch_size, input_shape, anchors, num_classes)
+    np.save('trainx_logits.npy', trainX)
+    np.save('trainy_logits.npy', trainY)
 
-    eva = model.evaluate_generator(test_generator, 80)
+    train_logits = np.load('trainx_logits.npy')[()]
 
-    print(eva)
+    print(train_logits[1].shape)
+
+   # data_train_generator = ImageDataGenerator()
+
+ #   test_generator = data_train_generator.flow(trainX, trainY, batch_size=batch_size), #data_generator_wrapper(train_lines, batch_size, input_shape, anchors, num_classes)
+
+  #  eva = model.evaluate_generator(test_generator, 80)
+
+   # print(eva)
 
 def get_classes(classes_path):
     '''loads the classes'''
@@ -98,7 +114,7 @@ def data_generator(annotation_lines, batch_size, input_shape, anchors, num_class
     '''data generator for fit_generator'''
     n = len(annotation_lines)
     i = 0
-    while i<5:
+    while True:
         image_data = []
         box_data = []
         for b in range(batch_size):
@@ -109,6 +125,7 @@ def data_generator(annotation_lines, batch_size, input_shape, anchors, num_class
             #print(box.shape)
             image_data.append(image)
             box_data.append(box)
+            print("i"+str(i))
             i = (i+1) % n
         image_data = np.array(image_data)
         box_data = np.array(box_data)
