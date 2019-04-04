@@ -1,0 +1,11 @@
+Feature Extractor
+Darknet53 155Mb Param 40M<
+Mobilenet 16Mb Param 4M<
+Squeezenet 6,62Mb Param 1,5M<
+Darknet_Ref 25Mb Param 6M<
+
+Output Layer
+normal yolo == 80mb 20M<
+reduced normal yolo == 50mb 13M<
+tiny yolo == 10mb 2M< (do not know how to make this yet)
+
