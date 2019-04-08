@@ -1,0 +1,47 @@
+3 scale
+
+loaded weights logs/tiny_yolo_000/tiny_yolo_trained_weights_stage_1.h5
+aeroplane: 0.0620
+bicycle: 0.0920
+bird: 0.0243
+boat: 0.0122
+bottle: 0.0097
+bus: 0.1303
+car: 0.1288
+cat: 0.0562
+chair: 0.0432
+cow: 0.1269
+diningtable: 0.0000
+dog: 0.0957
+horse: 0.1348
+motorbike: 0.0649
+person: 0.1667
+pottedplant: 0.0095
+sheep: 0.1692
+sofa: 0.0690
+train: 0.0413
+tvmonitor: 0.0812
+mAP: 0.0759
+
+loaded weights logs/tiny_yolo_000/ep060-loss25.849-val_loss26.280.h5
+aeroplane: 0.0562
+bicycle: 0.0878
+bird: 0.0395
+boat: 0.0170
+bottle: 0.0200
+bus: 0.1206
+car: 0.1679
+cat: 0.0412
+chair: 0.0540
+cow: 0.0888
+diningtable: 0.0129
+dog: 0.0622
+horse: 0.0955
+motorbike: 0.0892
+person: 0.1642
+pottedplant: 0.0202
+sheep: 0.0738
+sofa: 0.0511
+train: 0.0593
+tvmonitor: 0.1752
+mAP: 0.0748

@@ -1,0 +1,22 @@
+Mobilenetv2
+aeroplane: 0.3342
+bicycle: 0.4672
+bird: 0.3674
+boat: 0.2101
+bottle: 0.1749
+bus: 0.3233
+car: 0.5320
+cat: 0.4727
+chair: 0.1627
+cow: 0.1906
+diningtable: 0.1714
+dog: 0.4044
+horse: 0.5039
+motorbike: 0.3907
+person: 0.4290
+pottedplant: 0.0826
+sheep: 0.1241
+sofa: 0.3213
+train: 0.4002
+tvmonitor: 0.3447
+mAP: 0.3204

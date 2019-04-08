@@ -22,7 +22,7 @@ train: 0.4537
 tvmonitor: 0.3493
 mAP: 0.3473
 
-small mobilenet 
+mobilenet 
 first loss : ep003-loss51.479-val_loss46.044.h5
 middle loss : ep024-loss21.759-val_loss23.990.h5
 last loss : last_loss15.9165-val_loss15.9165.h5
