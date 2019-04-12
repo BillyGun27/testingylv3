@@ -45,3 +45,26 @@ sofa: 0.0511
 train: 0.0593
 tvmonitor: 0.1752
 mAP: 0.0748
+
+loaded weights logs/tiny_yolo_000/ep081-loss25.244-val_loss25.917.h5
+aeroplane: 0.0817
+bicycle: 0.1738
+bird: 0.0654
+boat: 0.0445
+bottle: 0.0360
+bus: 0.1894
+car: 0.2020
+cat: 0.0991
+chair: 0.0902
+cow: 0.1279
+diningtable: 0.0233
+dog: 0.1004
+horse: 0.1955
+motorbike: 0.1653
+person: 0.2070
+pottedplant: 0.0379
+sheep: 0.0821
+sofa: 0.1399
+train: 0.1065
+tvmonitor: 0.2031
+mAP: 0.1185

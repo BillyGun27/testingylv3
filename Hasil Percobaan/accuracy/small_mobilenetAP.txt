@@ -1,3 +1,7 @@
+
+conf_thres = 0.5
+iou_thres = 0.45
+
 small mobilenet(27mb) yolo for now
 {0: 0.2886880500915588, 1: 0.49941118603127055, 2: 0.2444640965334233, 3: 0.16006168349920366, 4: 0.1948608902713586, 5: 0.5300083075861101, 6: 0.5409369836908366, 7: 0.5067628271579261, 8: 0.10056515957446807, 9: 0.3287429704172446, 10: 0.23961672473867596, 11: 0.41025285247998355, 12: 0.47350048872418604, 13: 0.4251144456578134, 14: 0.42984661736129237, 15: 0.09929483514389173, 16: 0.23318323608432168, 17: 0.3794570650635555, 18: 0.4837190072005488, 19: 0.3191247696198191}
 aeroplane: 0.2887
@@ -26,3 +30,76 @@ small mobilenet
 first loss : ep003-loss113.347-val_loss94.183
 middle loss : ep027-loss19.193-val_loss21.659.h5
 last loss : last_loss14.0924-val_loss14.0924
+
+loaded weights model_data/small_mobilenet_trained_weights_final.h5
+aeroplane: 0.3108
+bicycle: 0.3748
+bird: 0.2442
+boat: 0.1266
+bottle: 0.0562
+bus: 0.3992
+car: 0.4288
+cat: 0.4569
+chair: 0.0539
+cow: 0.2112
+diningtable: 0.2742
+dog: 0.3279
+horse: 0.3397
+motorbike: 0.3717
+person: 0.2953
+pottedplant: 0.0648
+sheep: 0.1585
+sofa: 0.2164
+train: 0.4294
+tvmonitor: 0.2215
+mAP: 0.2681
+
+___________________________________________________________________________________________________
+conf_thres = 0.3
+iou_thres = 0.45
+
+loaded weights model_data/small_mobilenet_trained_weights_final.h5 (416)
+aeroplane: 0.3675
+bicycle: 0.5628
+bird: 0.3014
+boat: 0.2553
+bottle: 0.2465
+bus: 0.5557
+car: 0.6057
+cat: 0.5534
+chair: 0.1533
+cow: 0.3647
+diningtable: 0.3198
+dog: 0.4531
+horse: 0.5285
+motorbike: 0.4744
+person: 0.5121
+pottedplant: 0.1667
+sheep: 0.2617
+sofa: 0.4390
+train: 0.5230
+tvmonitor: 0.4010
+mAP: 0.4023
+
+loaded weights model_data/small_mobilenet_trained_weights_final.h5 (224)
+aeroplane: 0.3537
+bicycle: 0.4271
+bird: 0.2842
+boat: 0.1705
+bottle: 0.0982
+bus: 0.4395
+car: 0.4970
+cat: 0.4894
+chair: 0.1023
+cow: 0.2282
+diningtable: 0.3556
+dog: 0.3736
+horse: 0.4018
+motorbike: 0.4037
+person: 0.3944
+pottedplant: 0.1104
+sheep: 0.1897
+sofa: 0.2615
+train: 0.4890
+tvmonitor: 0.2925
+mAP: 0.3181
