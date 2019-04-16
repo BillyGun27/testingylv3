@@ -54,6 +54,52 @@ train: 0.4294
 tvmonitor: 0.2215
 mAP: 0.2681
 
+Small Mobilenet 21 mb
+aeroplane: 0.5052
+bicycle: 0.5341
+bird: 0.3550
+boat: 0.3745
+bottle: 0.2566
+bus: 0.5749
+car: 0.6277
+cat: 0.6055
+chair: 0.2196
+cow: 0.2673
+diningtable: 0.3847
+dog: 0.4024
+horse: 0.5090
+motorbike: 0.5670
+person: 0.5212
+pottedplant: 0.1716
+sheep: 0.4715
+sofa: 0.4941
+train: 0.5302
+tvmonitor: 0.5031
+mAP: 0.4438
+
+loaded weights logs/new_small_mobilenets2_000/ep171-loss12.986-val_loss15.458.h5
+aeroplane: 0.5085
+bicycle: 0.5338
+bird: 0.3614
+boat: 0.3703
+bottle: 0.2604
+bus: 0.5601
+car: 0.6336
+cat: 0.6054
+chair: 0.2182
+cow: 0.2660
+diningtable: 0.3958
+dog: 0.4160
+horse: 0.5117
+motorbike: 0.5670
+person: 0.5248
+pottedplant: 0.1736
+sheep: 0.4694
+sofa: 0.4977
+train: 0.5335
+tvmonitor: 0.5031
+mAP: 0.4455
+
 ___________________________________________________________________________________________________
 conf_thres = 0.3
 iou_thres = 0.45
