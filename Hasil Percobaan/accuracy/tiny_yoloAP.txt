@@ -1,70 +1,49 @@
-3 scale
 
-loaded weights logs/tiny_yolo_000/tiny_yolo_trained_weights_stage_1.h5
-aeroplane: 0.0620
-bicycle: 0.0920
-bird: 0.0243
-boat: 0.0122
-bottle: 0.0097
-bus: 0.1303
-car: 0.1288
-cat: 0.0562
-chair: 0.0432
-cow: 0.1269
-diningtable: 0.0000
-dog: 0.0957
-horse: 0.1348
-motorbike: 0.0649
-person: 0.1667
-pottedplant: 0.0095
-sheep: 0.1692
-sofa: 0.0690
-train: 0.0413
-tvmonitor: 0.0812
-mAP: 0.0759
+new dataset//best result
+416
+loaded weights logs/new_tiny_yolo_000/ep090-loss18.995-val_loss20.786.h5
+aeroplane: 0.1657
+bicycle: 0.3374
+bird: 0.1189
+boat: 0.1216
+bottle: 0.0638
+bus: 0.3980
+car: 0.2747
+cat: 0.3395
+chair: 0.1187
+cow: 0.1606
+diningtable: 0.2471
+dog: 0.2531
+horse: 0.3517
+motorbike: 0.2966
+person: 0.2686
+pottedplant: 0.0682
+sheep: 0.2089
+sofa: 0.3432
+train: 0.3108
+tvmonitor: 0.2389
+mAP: 0.2343
 
-loaded weights logs/tiny_yolo_000/ep060-loss25.849-val_loss26.280.h5
-aeroplane: 0.0562
-bicycle: 0.0878
-bird: 0.0395
-boat: 0.0170
-bottle: 0.0200
-bus: 0.1206
-car: 0.1679
-cat: 0.0412
-chair: 0.0540
-cow: 0.0888
-diningtable: 0.0129
-dog: 0.0622
-horse: 0.0955
-motorbike: 0.0892
-person: 0.1642
-pottedplant: 0.0202
-sheep: 0.0738
-sofa: 0.0511
-train: 0.0593
-tvmonitor: 0.1752
-mAP: 0.0748
-
-loaded weights logs/tiny_yolo_000/ep081-loss25.244-val_loss25.917.h5
-aeroplane: 0.0817
-bicycle: 0.1738
-bird: 0.0654
-boat: 0.0445
-bottle: 0.0360
-bus: 0.1894
-car: 0.2020
-cat: 0.0991
-chair: 0.0902
-cow: 0.1279
-diningtable: 0.0233
-dog: 0.1004
-horse: 0.1955
-motorbike: 0.1653
-person: 0.2070
-pottedplant: 0.0379
-sheep: 0.0821
-sofa: 0.1399
-train: 0.1065
-tvmonitor: 0.2031
-mAP: 0.1185
+224
+loaded weights logs/new_tiny_yolo_000/ep090-loss18.995-val_loss20.786.h5
+aeroplane: 0.2715
+bicycle: 0.2143
+bird: 0.1418
+boat: 0.1585
+bottle: 0.0466
+bus: 0.3431
+car: 0.2763
+cat: 0.3185
+chair: 0.0273
+cow: 0.1110
+diningtable: 0.2385
+dog: 0.2131
+horse: 0.2494
+motorbike: 0.2584
+person: 0.1791
+pottedplant: 0.0741
+sheep: 0.1111
+sofa: 0.2209
+train: 0.3223
+tvmonitor: 0.1171
+mAP: 0.1946

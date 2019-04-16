@@ -26,3 +26,30 @@ mobilenet
 first loss : ep003-loss51.479-val_loss46.044.h5
 middle loss : ep024-loss21.759-val_loss23.990.h5
 last loss : last_loss15.9165-val_loss15.9165.h5
+
+confidence 0.5
+iou 0.45
+new data
+416
+loaded weights logs/new_mobilenet/last_loss14.5896-val_loss14.5896.h5
+aeroplane: 0.5104
+bicycle: 0.5298
+bird: 0.3611
+boat: 0.3161
+bottle: 0.2298
+bus: 0.5872
+car: 0.5811
+cat: 0.6685
+chair: 0.1694
+cow: 0.3800
+diningtable: 0.4076
+dog: 0.5199
+horse: 0.5168
+motorbike: 0.4990
+person: 0.4467
+pottedplant: 0.1337
+sheep: 0.4406
+sofa: 0.4843
+train: 0.5233
+tvmonitor: 0.4161
+mAP: 0.4361

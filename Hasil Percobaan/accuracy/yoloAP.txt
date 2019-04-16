@@ -44,4 +44,132 @@ sofa: 0.6549
 train: 0.7453
 tvmonitor: 0.6700
 mAP: 0.6724
+----------------------------------------------------
 
+new dataset
+
+conf 0.5
+iou 0.45
+
+loaded weights logs/new_yolo_000/ep144-loss16.977-val_loss19.967.h5
+416
+aeroplane: 0.7081
+bicycle: 0.7260
+bird: 0.6598
+boat: 0.5685
+bottle: 0.5734
+bus: 0.8042
+car: 0.7977
+cat: 0.8037
+chair: 0.4863
+cow: 0.6443
+diningtable: 0.6668
+dog: 0.7168
+horse: 0.7910
+motorbike: 0.7099
+person: 0.6782
+pottedplant: 0.3787
+sheep: 0.7063
+sofa: 0.7042
+train: 0.7413
+tvmonitor: 0.6463
+mAP: 0.6756
+
+loaded weights logs/new_yolo_000/last_loss16.9831-val_loss16.9831.h5
+416
+aeroplane: 0.7046
+bicycle: 0.7316
+bird: 0.6628
+boat: 0.5685
+bottle: 0.5690
+bus: 0.8041
+car: 0.7993
+cat: 0.7975
+chair: 0.4869
+cow: 0.6291
+diningtable: 0.6683
+dog: 0.7172
+horse: 0.7913
+motorbike: 0.7098
+person: 0.6785
+pottedplant: 0.3828
+sheep: 0.7023
+sofa: 0.7151
+train: 0.7482
+tvmonitor: 0.6367
+mAP: 0.6752
+
+loaded weights logs/new_yolo_000/last_loss16.9831-val_loss16.9831.h5
+224
+aeroplane: 0.6662
+bicycle: 0.6289
+bird: 0.5119
+boat: 0.4923
+bottle: 0.4416
+bus: 0.7109
+car: 0.7204
+cat: 0.6535
+chair: 0.4339
+cow: 0.5756
+diningtable: 0.7155
+dog: 0.6330
+horse: 0.6675
+motorbike: 0.6292
+person: 0.6015
+pottedplant: 0.2985
+sheep: 0.6117
+sofa: 0.6428
+train: 0.6871
+tvmonitor: 0.5883
+mAP: 0.5955
+
+loaded weights logs/new_yolo_000/ep144-loss16.977-val_loss19.967.h5
+224
+aeroplane: 0.6661
+bicycle: 0.6288
+bird: 0.5167
+boat: 0.4928
+bottle: 0.4393
+bus: 0.7064
+car: 0.7212
+cat: 0.6505
+chair: 0.4369
+cow: 0.5679
+diningtable: 0.7071
+dog: 0.6278
+horse: 0.6700
+motorbike: 0.6324
+person: 0.6015
+pottedplant: 0.2971
+sheep: 0.6165
+sofa: 0.6432
+train: 0.6801
+tvmonitor: 0.5883
+mAP: 0.5945
+-----------------------------------------------------------------
+conf 0.3
+iou 0.45
+
+416
+loaded weights logs/new_yolo_000/last_loss16.9831-val_loss16.9831.h5
+aeroplane: 0.7496
+bicycle: 0.7847
+bird: 0.7153
+boat: 0.6498
+bottle: 0.6414
+bus: 0.8129
+car: 0.8395
+cat: 0.8130
+chair: 0.5600
+cow: 0.6687
+diningtable: 0.7250
+dog: 0.7395
+horse: 0.8102
+motorbike: 0.7561
+person: 0.7442
+pottedplant: 0.4574
+sheep: 0.7459
+sofa: 0.7385
+train: 0.7794
+tvmonitor: 0.7104
+mAP: 0.7221
