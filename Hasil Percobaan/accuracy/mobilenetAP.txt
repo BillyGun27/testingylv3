@@ -53,3 +53,27 @@ sofa: 0.4843
 train: 0.5233
 tvmonitor: 0.4161
 mAP: 0.4361
+
+loaded weights logs/new_mobilenet/last_loss14.5896-val_loss14.5896.h5
+224
+aeroplane: 0.4614
+bicycle: 0.4053
+bird: 0.2632
+boat: 0.2044
+bottle: 0.1131
+bus: 0.4646
+car: 0.4671
+cat: 0.5018
+chair: 0.0964
+cow: 0.2465
+diningtable: 0.2829
+dog: 0.3953
+horse: 0.3705
+motorbike: 0.3921
+person: 0.3234
+pottedplant: 0.0807
+sheep: 0.3296
+sofa: 0.3119
+train: 0.4677
+tvmonitor: 0.2834
+mAP: 0.3231
