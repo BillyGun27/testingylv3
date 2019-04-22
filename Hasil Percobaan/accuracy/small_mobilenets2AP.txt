@@ -50,6 +50,30 @@ train: 0.4995
 tvmonitor: 0.4383
 mAP: 0.3843
 
+loaded weights logs/new_small_mobilenets2_000/ep054-loss13.312-val_loss15.639.h5
+416
+aeroplane: 0.4444
+bicycle: 0.4658
+bird: 0.2673
+boat: 0.2813
+bottle: 0.1912
+bus: 0.5433
+car: 0.5675
+cat: 0.5577
+chair: 0.1438
+cow: 0.2347
+diningtable: 0.2952
+dog: 0.3539
+horse: 0.4529
+motorbike: 0.5172
+person: 0.4349
+pottedplant: 0.1010
+sheep: 0.3996
+sofa: 0.4568
+train: 0.4960
+tvmonitor: 0.4351
+mAP: 0.3820
+
 224
 
 loaded weights logs/new_small_mobilenets2_000/ep171-loss12.986-val_loss15.458.h5
@@ -75,6 +99,102 @@ sofa: 0.3639
 train: 0.4669
 tvmonitor: 0.2741
 mAP: 0.3068
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_000/ep087-loss23.336-val_loss17.060.h5
+224
+aeroplane: 0.0950
+bicycle: 0.0615
+bird: 0.0187
+boat: 0.0434
+bottle: 0.0216
+bus: 0.3626
+car: 0.4031
+cat: 0.0974
+chair: 0.0164
+cow: 0.0062
+diningtable: 0.1329
+dog: 0.1988
+horse: 0.0330
+motorbike: 0.2345
+person: 0.1896
+pottedplant: 0.0024
+sheep: 0.0966
+sofa: 0.0235
+train: 0.0357
+tvmonitor: 0.0882
+mAP: 0.1080
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_000/ep087-loss23.336-val_loss17.060.h5
+416
+aeroplane: 0.0719
+bicycle: 0.0973
+bird: 0.0371
+boat: 0.0362
+bottle: 0.0203
+bus: 0.3520
+car: 0.3934
+cat: 0.1232
+chair: 0.0180
+cow: 0.0355
+diningtable: 0.0698
+dog: 0.1721
+horse: 0.0710
+motorbike: 0.1679
+person: 0.2611
+pottedplant: 0.0015
+sheep: 0.1279
+sofa: 0.0239
+train: 0.0138
+tvmonitor: 0.1333
+mAP: 0.1114
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_000/ep075-loss19.966-val_loss19.062.h5
+416
+aeroplane: 0.0888
+bicycle: 0.1247
+bird: 0.0426
+boat: 0.0407
+bottle: 0.0209
+bus: 0.3285
+car: 0.3687
+cat: 0.1307
+chair: 0.0177
+cow: 0.0403
+diningtable: 0.0836
+dog: 0.1523
+horse: 0.0644
+motorbike: 0.1849
+person: 0.2641
+pottedplant: 0.0025
+sheep: 0.1278
+sofa: 0.0150
+train: 0.0117
+tvmonitor: 0.1341
+mAP: 0.1122
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_000/last_loss15.2184-val_loss35.6168.h5
+416
+aeroplane: 0.0028
+bicycle: 0.0000
+bird: 0.0233
+boat: 0.0111
+bottle: 0.0040
+bus: 0.0495
+car: 0.2444
+cat: 0.1446
+chair: 0.0103
+cow: 0.0783
+diningtable: 0.0978
+dog: 0.0089
+horse: 0.0137
+motorbike: 0.0145
+person: 0.1588
+pottedplant: 0.0042
+sheep: 0.0023
+sofa: 0.0000
+train: 0.0760
+tvmonitor: 0.0457
+mAP: 0.0495
 
 ----------------------------------------------------------------------------
 
