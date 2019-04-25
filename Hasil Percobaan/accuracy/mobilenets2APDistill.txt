@@ -1,0 +1,321 @@
+new dataset
+
+conf 0.5
+iou 0.45
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_000/ep087-loss23.336-val_loss17.060.h5
+224
+aeroplane: 0.0950
+bicycle: 0.0615
+bird: 0.0187
+boat: 0.0434
+bottle: 0.0216
+bus: 0.3626
+car: 0.4031
+cat: 0.0974
+chair: 0.0164
+cow: 0.0062
+diningtable: 0.1329
+dog: 0.1988
+horse: 0.0330
+motorbike: 0.2345
+person: 0.1896
+pottedplant: 0.0024
+sheep: 0.0966
+sofa: 0.0235
+train: 0.0357
+tvmonitor: 0.0882
+mAP: 0.1080
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_000/ep054-loss25.635-val_loss19.602.h5
+416 0.5 0.45
+aeroplane: 0.0881
+bicycle: 0.1454
+bird: 0.0508
+boat: 0.0329
+bottle: 0.0151
+bus: 0.2995
+car: 0.3486
+cat: 0.1432
+chair: 0.0177
+cow: 0.0302
+diningtable: 0.0724
+dog: 0.1353
+horse: 0.0840
+motorbike: 0.1829
+person: 0.2276
+pottedplant: 0.0024
+sheep: 0.1408
+sofa: 0.0367
+train: 0.0272
+tvmonitor: 0.1248
+mAP: 0.1103
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_000/ep075-loss19.966-val_loss19.062.h5
+416
+aeroplane: 0.0888
+bicycle: 0.1247
+bird: 0.0426
+boat: 0.0407
+bottle: 0.0209
+bus: 0.3285
+car: 0.3687
+cat: 0.1307
+chair: 0.0177
+cow: 0.0403
+diningtable: 0.0836
+dog: 0.1523
+horse: 0.0644
+motorbike: 0.1849
+person: 0.2641
+pottedplant: 0.0025
+sheep: 0.1278
+sofa: 0.0150
+train: 0.0117
+tvmonitor: 0.1341
+mAP: 0.1122
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_000/ep087-loss23.336-val_loss17.060.h5
+416
+aeroplane: 0.0719
+bicycle: 0.0973
+bird: 0.0371
+boat: 0.0362
+bottle: 0.0203
+bus: 0.3520
+car: 0.3934
+cat: 0.1232
+chair: 0.0180
+cow: 0.0355
+diningtable: 0.0698
+dog: 0.1721
+horse: 0.0710
+motorbike: 0.1679
+person: 0.2611
+pottedplant: 0.0015
+sheep: 0.1279
+sofa: 0.0239
+train: 0.0138
+tvmonitor: 0.1333
+mAP: 0.1114
+
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_000/last_loss15.2184-val_loss35.6168.h5
+416
+aeroplane: 0.0028
+bicycle: 0.0000
+bird: 0.0233
+boat: 0.0111
+bottle: 0.0040
+bus: 0.0495
+car: 0.2444
+cat: 0.1446
+chair: 0.0103
+cow: 0.0783
+diningtable: 0.0978
+dog: 0.0089
+horse: 0.0137
+motorbike: 0.0145
+person: 0.1588
+pottedplant: 0.0042
+sheep: 0.0023
+sofa: 0.0000
+train: 0.0760
+tvmonitor: 0.0457
+mAP: 0.0495
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_pretrain_000/ep030-loss14.040-val_loss23.142.h5
+416 0.5 0.45
+aeroplane: 0.3292
+bicycle: 0.5387
+bird: 0.2491
+boat: 0.1614
+bottle: 0.2106
+bus: 0.4308
+car: 0.4945
+cat: 0.4183
+chair: 0.1267
+cow: 0.0032
+diningtable: 0.1466
+dog: 0.3143
+horse: 0.5329
+motorbike: 0.5263
+person: 0.3901
+pottedplant: 0.1060
+sheep: 0.3583
+sofa: 0.5288
+train: 0.5189
+tvmonitor: 0.2604
+mAP: 0.3322
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_pretrain_000/ep060-loss16.500-val_loss16.341.h5
+416 0.5 0.45
+aeroplane: 0.3891
+bicycle: 0.4505
+bird: 0.3115
+boat: 0.1966
+bottle: 0.1949
+bus: 0.5219
+car: 0.5538
+cat: 0.4262
+chair: 0.1291
+cow: 0.2327
+diningtable: 0.2689
+dog: 0.3108
+horse: 0.4255
+motorbike: 0.4588
+person: 0.3970
+pottedplant: 0.0974
+sheep: 0.3816
+sofa: 0.4907
+train: 0.4907
+tvmonitor: 0.4249
+mAP: 0.3576
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a01_pretrain_000/ep066-loss13.959-val_loss17.035.h5
+416 0.5 0.45
+aeroplane: 0.3998
+bicycle: 0.4647
+bird: 0.3038
+boat: 0.1999
+bottle: 0.2102
+bus: 0.4586
+car: 0.5370
+cat: 0.4633
+chair: 0.1361
+cow: 0.2447
+diningtable: 0.2788
+dog: 0.3163
+horse: 0.4438
+motorbike: 0.4334
+person: 0.4176
+pottedplant: 0.1035
+sheep: 0.3818
+sofa: 0.4519
+train: 0.4862
+tvmonitor: 0.4228
+mAP: 0.3577
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a05_000/ep051-loss22.336-val_loss19.353.h5
+416 0.5 0.45
+aeroplane: 0.1485
+bicycle: 0.2372
+bird: 0.0293
+boat: 0.0397
+bottle: 0.0528
+bus: 0.3255
+car: 0.2263
+cat: 0.0000
+chair: 0.0538
+cow: 0.0158
+diningtable: 0.1016
+dog: 0.2225
+horse: 0.0214
+motorbike: 0.1848
+person: 0.2939
+pottedplant: 0.0034
+sheep: 0.0104
+sofa: 0.0440
+train: 0.0019
+tvmonitor: 0.0441
+mAP: 0.1028
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a05_000/ep072-loss21.679-val_loss19.333.h5
+416 0.5 0.45
+aeroplane: 0.1304
+bicycle: 0.2095
+bird: 0.0347
+boat: 0.0344
+bottle: 0.0392
+bus: 0.2614
+car: 0.1639
+cat: 0.0000
+chair: 0.0411
+cow: 0.0176
+diningtable: 0.1013
+dog: 0.2532
+horse: 0.0128
+motorbike: 0.1008
+person: 0.2849
+pottedplant: 0.0025
+sheep: 0.0037
+sofa: 0.0181
+train: 0.0024
+tvmonitor: 0.0348
+mAP: 0.0873
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a05_000/ep078-loss27.177-val_loss19.137.h5
+416 0.5 0.45
+aeroplane: 0.1527
+bicycle: 0.2275
+bird: 0.0494
+boat: 0.0468
+bottle: 0.0351
+bus: 0.3278
+car: 0.2507
+cat: 0.0000
+chair: 0.0349
+cow: 0.0184
+diningtable: 0.0660
+dog: 0.2167
+horse: 0.0212
+motorbike: 0.1535
+person: 0.2341
+pottedplant: 0.0033
+sheep: 0.0088
+sofa: 0.0360
+train: 0.0010
+tvmonitor: 0.0401
+mAP: 0.0962
+
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a05_000/ep105-loss22.619-val_loss18.349.h5
+416
+aeroplane: 0.1592
+bicycle: 0.2202
+bird: 0.0240
+boat: 0.0409
+bottle: 0.0430
+bus: 0.3174
+car: 0.2155
+cat: 0.0000
+chair: 0.0459
+cow: 0.0186
+diningtable: 0.1022
+dog: 0.2177
+horse: 0.0181
+motorbike: 0.2109
+person: 0.2947
+pottedplant: 0.0032
+sheep: 0.0120
+sofa: 0.0421
+train: 0.0014
+tvmonitor: 0.0318
+mAP: 0.1009
+
+loaded weights logs/loss_temperature_distillation_small_mobilenets2_a05_000/last_loss27.7867-val_loss27.7867.h5
+416 0.5 0.45
+aeroplane: 0.1393
+bicycle: 0.1898
+bird: 0.0502
+boat: 0.0348
+bottle: 0.0305
+bus: 0.2426
+car: 0.1503
+cat: 0.0000
+chair: 0.0581
+cow: 0.0110
+diningtable: 0.0566
+dog: 0.2323
+horse: 0.0084
+motorbike: 0.0649
+person: 0.2766
+pottedplant: 0.0033
+sheep: 0.0059
+sofa: 0.0510
+train: 0.0007
+tvmonitor: 0.0278
+mAP: 0.0817
+
+
+
