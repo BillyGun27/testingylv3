@@ -28,6 +28,31 @@ train: 0.4578
 tvmonitor: 0.4123
 mAP: 0.3837
 
+loaded weights model_data/new_med_darknet_trained_weights_final.h5
+288 0.5 0.45
+aeroplane: 0.4064
+bicycle: 0.4213
+bird: 0.1799
+boat: 0.2066
+bottle: 0.1050
+bus: 0.5278
+car: 0.4732
+cat: 0.5025
+chair: 0.0870
+cow: 0.3053
+diningtable: 0.4366
+dog: 0.3626
+horse: 0.4664
+motorbike: 0.4688
+person: 0.3533
+pottedplant: 0.0705
+sheep: 0.3147
+sofa: 0.3303
+train: 0.4463
+tvmonitor: 0.3257
+mAP: 0.3395
+
+
 loaded weights logs/new_med_darknet_000/new_med_darknet_trained_weights_final.h5
 224
 aeroplane: 0.4261
@@ -51,3 +76,27 @@ sofa: 0.3355
 train: 0.4154
 tvmonitor: 0.2287
 mAP: 0.2995
+
+loaded weights model_data/new_med_darknet_trained_weights_final.h5
+160 0.5 0.45
+aeroplane: 0.2916
+bicycle: 0.2584
+bird: 0.1033
+boat: 0.1151
+bottle: 0.0490
+bus: 0.3734
+car: 0.3456
+cat: 0.3066
+chair: 0.0262
+cow: 0.1702
+diningtable: 0.2099
+dog: 0.2040
+horse: 0.2290
+motorbike: 0.3095
+person: 0.2227
+pottedplant: 0.0504
+sheep: 0.1942
+sofa: 0.1990
+train: 0.2473
+tvmonitor: 0.1205
+mAP: 0.2013

@@ -25,6 +25,30 @@ train: 0.3108
 tvmonitor: 0.2389
 mAP: 0.2343
 
+loaded weights model_data/new_tiny_yolo_trained_weights_final.h5
+288 0.5 0.45
+aeroplane: 0.1648
+bicycle: 0.2170
+bird: 0.0974
+boat: 0.1244
+bottle: 0.0399
+bus: 0.3638
+car: 0.2535
+cat: 0.2160
+chair: 0.0466
+cow: 0.1407
+diningtable: 0.1436
+dog: 0.1877
+horse: 0.2963
+motorbike: 0.1969
+person: 0.1930
+pottedplant: 0.0359
+sheep: 0.1286
+sofa: 0.1870
+train: 0.2213
+tvmonitor: 0.1728
+mAP: 0.1714
+
 224
 loaded weights logs/new_tiny_yolo_000/ep090-loss18.995-val_loss20.786.h5
 aeroplane: 0.2715
@@ -48,6 +72,31 @@ sofa: 0.2209
 train: 0.3223
 tvmonitor: 0.1171
 mAP: 0.1946
+
+loaded weights model_data/new_tiny_yolo_trained_weights_final.h5
+160 0.5 0.45
+aeroplane: 0.2287
+bicycle: 0.1424
+bird: 0.0836
+boat: 0.0687
+bottle: 0.0243
+bus: 0.2508
+car: 0.2153
+cat: 0.1802
+chair: 0.0039
+cow: 0.0776
+diningtable: 0.1746
+dog: 0.1216
+horse: 0.1235
+motorbike: 0.1440
+person: 0.0881
+pottedplant: 0.0378
+sheep: 0.0437
+sofa: 0.1194
+train: 0.1671
+tvmonitor: 0.0647
+mAP: 0.1180
+
 
 conf=0.5
 iou=0.45
