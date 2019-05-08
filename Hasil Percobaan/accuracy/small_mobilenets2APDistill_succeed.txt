@@ -1,0 +1,53 @@
+new dataset
+
+conf 0.5
+iou 0.45
+
+logs_distill/mgpu_distill_small_mobilenets2/ds_mobilenets2_epoch_071_val_loss_24.9602_loss_21.9315.h5
+416 0.5 0.45
+aeroplane: 0.4286
+bicycle: 0.5372
+bird: 0.2675
+boat: 0.2485
+bottle: 0.2306
+bus: 0.5425
+car: 0.5746
+cat: 0.6022
+chair: 0.1796
+cow: 0.2367
+diningtable: 0.3545
+dog: 0.4338
+horse: 0.4497
+motorbike: 0.5083
+person: 0.4513
+pottedplant: 0.1213
+sheep: 0.4235
+sofa: 0.4774
+train: 0.4687
+tvmonitor: 0.4589
+mAP: 0.3998
+
+loaded weights model_data/ds_mobilenets2_epoch_060_val_loss_24.8662_loss_22.0908.h5
+416 0.5 0.45
+aeroplane: 0.4355
+bicycle: 0.5344
+bird: 0.2718
+boat: 0.2449
+bottle: 0.2262
+bus: 0.5425
+car: 0.5754
+cat: 0.6044
+chair: 0.1742
+cow: 0.2363
+diningtable: 0.3594
+dog: 0.4337
+horse: 0.4496
+motorbike: 0.4997
+person: 0.4529
+pottedplant: 0.1174
+sheep: 0.4194
+sofa: 0.4723
+train: 0.4686
+tvmonitor: 0.4588
+mAP: 0.3989
+

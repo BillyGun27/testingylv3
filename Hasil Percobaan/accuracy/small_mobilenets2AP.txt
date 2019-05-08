@@ -27,6 +27,31 @@ train: 0.4994
 tvmonitor: 0.4383
 mAP: 0.3850
 
+
+model_data/ep054-loss13.312-val_loss15.639.h5
+288 0.5 0.45
+aeroplane: 0.4424
+bicycle: 0.4074
+bird: 0.2426
+boat: 0.2013
+bottle: 0.1272
+bus: 0.5093
+car: 0.5110
+cat: 0.4859
+chair: 0.1135
+cow: 0.2361
+diningtable: 0.3759
+dog: 0.3800
+horse: 0.3283
+motorbike: 0.4480
+person: 0.3701
+pottedplant: 0.0792
+sheep: 0.3788
+sofa: 0.4172
+train: 0.4562
+tvmonitor: 0.3583
+mAP: 0.3434
+
 loaded weights logs/new_small_mobilenets2_000/last_loss13.1045-val_loss13.1045.h5
 aeroplane: 0.4444
 bicycle: 0.4630
