@@ -31,7 +31,57 @@ confidence 0.5
 iou 0.45
 new data
 416
-loaded weights logs/new_mobilenet/last_loss14.5896-val_loss14.5896.h5
+
+loaded weights logs/new_mobilenet/ep063-loss14.770-val_loss15.292.h5
+416 0.5 0.45
+aeroplane: 0.5022
+bicycle: 0.5295
+bird: 0.3583
+boat: 0.3089
+bottle: 0.2277
+bus: 0.5872
+car: 0.5802
+cat: 0.6567
+chair: 0.1664
+cow: 0.3795
+diningtable: 0.4183
+dog: 0.5254
+horse: 0.5238
+motorbike: 0.4930
+person: 0.4462
+pottedplant: 0.1337
+sheep: 0.4175
+sofa: 0.4884
+train: 0.5319
+tvmonitor: 0.4129
+mAP: 0.4344
+
+
+loaded weights logs/new_mobilenet/ep066-loss14.789-val_loss15.255.h5
+416 0.5 0.45
+aeroplane: 0.5055
+bicycle: 0.5296
+bird: 0.3616
+boat: 0.3126
+bottle: 0.2259
+bus: 0.5959
+car: 0.5802
+cat: 0.6557
+chair: 0.1679
+cow: 0.3794
+diningtable: 0.4171
+dog: 0.5222
+horse: 0.5241
+motorbike: 0.4994
+person: 0.4466
+pottedplant: 0.1340
+sheep: 0.4316
+sofa: 0.4966
+train: 0.5290
+tvmonitor: 0.4128
+mAP: 0.4364
+
+loaded weights logs/new_mobilenet/last_loss14.5896-val_loss14.5896.h5 #100
 aeroplane: 0.5104
 bicycle: 0.5298
 bird: 0.3611

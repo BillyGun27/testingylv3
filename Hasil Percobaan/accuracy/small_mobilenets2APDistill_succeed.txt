@@ -51,3 +51,363 @@ train: 0.4686
 tvmonitor: 0.4588
 mAP: 0.3989
 
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_050_val_loss_24.0508_loss_22.0040.h5
+416 0.5 0.45
+aeroplane: 0.4584
+bicycle: 0.4949
+bird: 0.3180
+boat: 0.2680
+bottle: 0.2319
+bus: 0.5653
+car: 0.5596
+cat: 0.5919
+chair: 0.1681
+cow: 0.2505
+diningtable: 0.3303
+dog: 0.4067
+horse: 0.4517
+motorbike: 0.5113
+person: 0.4289
+pottedplant: 0.1004
+sheep: 0.3818
+sofa: 0.4026
+train: 0.4948
+tvmonitor: 0.4513
+mAP: 0.3933
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_060_val_loss_24.2009_loss_21.9505.h5
+416 0.5 0.45
+aeroplane: 0.4478
+bicycle: 0.4918
+bird: 0.3245
+boat: 0.2603
+bottle: 0.2339
+bus: 0.5719
+car: 0.5628
+cat: 0.5983
+chair: 0.1751
+cow: 0.2624
+diningtable: 0.3428
+dog: 0.4115
+horse: 0.4437
+motorbike: 0.5091
+person: 0.4389
+pottedplant: 0.1107
+sheep: 0.3957
+sofa: 0.4027
+train: 0.4940
+tvmonitor: 0.4481
+mAP: 0.3963
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_061_val_loss_24.0592_loss_21.9473.h5
+416 0.5 0.45
+aeroplane: 0.4410
+bicycle: 0.4861
+bird: 0.3186
+boat: 0.2641
+bottle: 0.2383
+bus: 0.5719
+car: 0.5605
+cat: 0.5979
+chair: 0.1740
+cow: 0.2605
+diningtable: 0.3379
+dog: 0.4180
+horse: 0.4430
+motorbike: 0.5090
+person: 0.4392
+pottedplant: 0.1068
+sheep: 0.3916
+sofa: 0.4028
+train: 0.4940
+tvmonitor: 0.4481
+mAP: 0.3952
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_062_val_loss_24.0851_loss_21.8285.h5
+416 0.5 0.45
+aeroplane: 0.4443
+bicycle: 0.4790
+bird: 0.3192
+boat: 0.2643
+bottle: 0.2340
+bus: 0.5720
+car: 0.5613
+cat: 0.6007
+chair: 0.1850
+cow: 0.2519
+diningtable: 0.3308
+dog: 0.4152
+horse: 0.4470
+motorbike: 0.5090
+person: 0.4384
+pottedplant: 0.1068
+sheep: 0.3921
+sofa: 0.4026
+train: 0.4943
+tvmonitor: 0.4448
+mAP: 0.3946
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_065_val_loss_23.9544_loss_22.0533.h5
+416 0.5 0.45
+aeroplane: 0.4443
+bicycle: 0.4704
+bird: 0.3167
+boat: 0.2640
+bottle: 0.2340
+bus: 0.5805
+car: 0.5617
+cat: 0.6009
+chair: 0.1689
+cow: 0.2503
+diningtable: 0.3293
+dog: 0.4174
+horse: 0.4498
+motorbike: 0.5092
+person: 0.4386
+pottedplant: 0.1046
+sheep: 0.3917
+sofa: 0.4027
+train: 0.4939
+tvmonitor: 0.4448
+mAP: 0.3937
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_070_val_loss_23.9528_loss_21.7807.h5
+416 0.5 0.45
+aeroplane: 0.4478
+bicycle: 0.4790
+bird: 0.3184
+boat: 0.2606
+bottle: 0.2362
+bus: 0.5763
+car: 0.5617
+cat: 0.5982
+chair: 0.1758
+cow: 0.2600
+diningtable: 0.3429
+dog: 0.4153
+horse: 0.4469
+motorbike: 0.5091
+person: 0.4391
+pottedplant: 0.1045
+sheep: 0.3843
+sofa: 0.4028
+train: 0.4944
+tvmonitor: 0.4448
+mAP: 0.3949
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_071_val_loss_24.1584_loss_22.1114.h5
+416 0.5 0.45
+aeroplane: 0.4444
+bicycle: 0.4890
+bird: 0.3166
+boat: 0.2642
+bottle: 0.2317
+bus: 0.5764
+car: 0.5596
+cat: 0.5981
+chair: 0.1752
+cow: 0.2626
+diningtable: 0.3296
+dog: 0.4160
+horse: 0.4498
+motorbike: 0.5089
+person: 0.4400
+pottedplant: 0.1109
+sheep: 0.3952
+sofa: 0.4031
+train: 0.4944
+tvmonitor: 0.4448
+mAP: 0.3955
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_080_val_loss_23.7703_loss_21.9521.h5
+416 0.5 0.45
+aeroplane: 0.4443
+bicycle: 0.4806
+bird: 0.3203
+boat: 0.2601
+bottle: 0.2318
+bus: 0.5805
+car: 0.5609
+cat: 0.6009
+chair: 0.1780
+cow: 0.2598
+diningtable: 0.3299
+dog: 0.4172
+horse: 0.4466
+motorbike: 0.5092
+person: 0.4391
+pottedplant: 0.1088
+sheep: 0.3871
+sofa: 0.4028
+train: 0.4910
+tvmonitor: 0.4448
+mAP: 0.3947
+
+loaded weights logs_distill/mpgu_a1_ds_mobilenets2/a1_ds_small_mobilenets2_epoch_100
+aeroplane: 0.4478
+bicycle: 0.4898
+bird: 0.3228
+boat: 0.2676
+bottle: 0.2318
+bus: 0.5692
+car: 0.5588
+cat: 0.6006
+chair: 0.1850
+cow: 0.2442
+diningtable: 0.3296
+dog: 0.4122
+horse: 0.4488
+motorbike: 0.5093
+person: 0.4391
+pottedplant: 0.1046
+sheep: 0.3913
+sofa: 0.4026
+train: 0.4908
+tvmonitor: 0.4448
+mAP: 0.3945
+
+
+loaded weights logs_distill/mpgu_a2_ds_mobilenets2/a2_ds_small_mobilenets2_epoch_060_val_loss_23.4218_loss_21.3635.h5
+416 0.5 0.45
+aeroplane: 0.4209
+bicycle: 0.4991
+bird: 0.2973
+boat: 0.3099
+bottle: 0.2198
+bus: 0.5151
+car: 0.5565
+cat: 0.5653
+chair: 0.1538
+cow: 0.2343
+diningtable: 0.3479
+dog: 0.4047
+horse: 0.4615
+motorbike: 0.5232
+person: 0.4378
+pottedplant: 0.1103
+sheep: 0.3988
+sofa: 0.4408
+train: 0.5108
+tvmonitor: 0.4318
+mAP: 0.3920  
+
+loaded weights logs_distill/mgpu_distill_small_mobilenets2/ds_mobilenets2_epoch_061_val_loss_24.8060_loss_22.1037.h5
+416 0.5 0.45
+aeroplane: 0.4354
+bicycle: 0.5372
+bird: 0.2718
+boat: 0.2485
+bottle: 0.2306
+bus: 0.5422
+car: 0.5740
+cat: 0.5996
+chair: 0.1789
+cow: 0.2304
+diningtable: 0.3643
+dog: 0.4364
+horse: 0.4583
+motorbike: 0.5056
+person: 0.4539
+pottedplant: 0.1234
+sheep: 0.4195
+sofa: 0.4689
+train: 0.4754
+tvmonitor: 0.4523
+mAP: 0.4003
+
+loaded weights logs_distill/mpgu_a2_ds_mobilenets2/a2_ds_small_mobilenets2_epoch_062_val_loss_23.2470_loss_21.3445.h5
+416 0.5 0.45
+aeroplane: 0.4213
+bicycle: 0.5018
+bird: 0.3013
+boat: 0.3097
+bottle: 0.2242
+bus: 0.5154
+car: 0.5582
+cat: 0.5652
+chair: 0.1578
+cow: 0.2336
+diningtable: 0.3483
+dog: 0.4063
+horse: 0.4682
+motorbike: 0.5231
+person: 0.4405
+pottedplant: 0.1083
+sheep: 0.4028
+sofa: 0.4443
+train: 0.5076
+tvmonitor: 0.4286
+mAP: 0.3933
+
+loaded weights logs_distill/mpgu_a2_ds_mobilenets2/a2_ds_small_mobilenets2_epoch_063_val_loss_23.1806_loss_21.2559.h5
+416 0.5 0.45
+aeroplane: 0.4212
+bicycle: 0.4962
+bird: 0.2994
+boat: 0.3099
+bottle: 0.2242
+bus: 0.5152
+car: 0.5565
+cat: 0.5653
+chair: 0.1556
+cow: 0.2336
+diningtable: 0.3481
+dog: 0.4001
+horse: 0.4727
+motorbike: 0.5234
+person: 0.4404
+pottedplant: 0.1103
+sheep: 0.4071
+sofa: 0.4407
+train: 0.5111
+tvmonitor: 0.4286
+mAP: 0.3930
+
+loaded weights logs_distill/mpgu_a2_ds_mobilenets2/a2_ds_small_mobilenets2_epoch_080_val_loss_23.2368_loss_21.4024.h5
+416 0.5 0.45
+aeroplane: 0.4172
+bicycle: 0.5018
+bird: 0.2993
+boat: 0.3098
+bottle: 0.2243
+bus: 0.5154
+car: 0.5582
+cat: 0.5627
+chair: 0.1550
+cow: 0.2343
+diningtable: 0.3397
+dog: 0.4064
+horse: 0.4604
+motorbike: 0.5234
+person: 0.4393
+pottedplant: 0.1103
+sheep: 0.3987
+sofa: 0.4445
+train: 0.5053
+tvmonitor: 0.4318
+mAP: 0.3919
+
+loaded weights logs_distill/mpgu_a2_ds_mobilenets2/a2_ds_small_mobilenets2_epoch_100_val_loss_23.2102_loss_21.4438.h5
+416 0.5 0.45
+aeroplane: 0.4175
+bicycle: 0.5044
+bird: 0.2975
+boat: 0.3071
+bottle: 0.2242
+bus: 0.5153
+car: 0.5581
+cat: 0.5628
+chair: 0.1582
+cow: 0.2336
+diningtable: 0.3436
+dog: 0.4029
+horse: 0.4730
+motorbike: 0.5233
+person: 0.4387
+pottedplant: 0.1083
+sheep: 0.3986
+sofa: 0.4366
+train: 0.5056
+tvmonitor: 0.4318
+mAP: 0.3920
+

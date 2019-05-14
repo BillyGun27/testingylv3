@@ -51,6 +51,78 @@ new dataset
 conf 0.5
 iou 0.45
 
+loaded weights logs/new_yolo_000/ep063-loss18.161-val_loss20.487.h5
+416 0.5 0.45
+aeroplane: 0.6631
+bicycle: 0.7414
+bird: 0.6095
+boat: 0.5009
+bottle: 0.5563
+bus: 0.7517
+car: 0.7815
+cat: 0.7604
+chair: 0.4428
+cow: 0.5367
+diningtable: 0.6241
+dog: 0.6880
+horse: 0.7258
+motorbike: 0.7180
+person: 0.6472
+pottedplant: 0.3385
+sheep: 0.6785
+sofa: 0.7013
+train: 0.6715
+tvmonitor: 0.6403
+mAP: 0.6389
+
+loaded weights logs/new_yolo_000/ep075-loss17.152-val_loss20.177.h5
+416 0.5 0.45
+aeroplane: 0.6902
+bicycle: 0.7257
+bird: 0.6441
+boat: 0.5617
+bottle: 0.5889
+bus: 0.7950
+car: 0.7954
+cat: 0.7917
+chair: 0.4671
+cow: 0.5517
+diningtable: 0.6943
+dog: 0.7163
+horse: 0.7650
+motorbike: 0.6947
+person: 0.6657
+pottedplant: 0.3762
+sheep: 0.6818
+sofa: 0.6558
+train: 0.7378
+tvmonitor: 0.6110
+mAP: 0.6605
+
+loaded weights logs/new_yolo_000/ep081-loss17.004-val_loss20.037.h5
+416 0.5 0.45
+aeroplane: 0.7116
+bicycle: 0.7418
+bird: 0.6603
+boat: 0.5685
+bottle: 0.5735
+bus: 0.7951
+car: 0.7977
+cat: 0.7927
+chair: 0.4866
+cow: 0.6165
+diningtable: 0.6629
+dog: 0.7125
+horse: 0.7860
+motorbike: 0.7127
+person: 0.6756
+pottedplant: 0.3680
+sheep: 0.6900
+sofa: 0.7077
+train: 0.7446
+tvmonitor: 0.6365
+mAP: 0.6720
+
 loaded weights logs/new_yolo_000/ep144-loss16.977-val_loss19.967.h5
 416
 aeroplane: 0.7081

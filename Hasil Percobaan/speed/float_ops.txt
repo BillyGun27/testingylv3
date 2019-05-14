@@ -1,0 +1,5 @@
+small_mobilenets2 floatops _ 20,057,088 totalparams _ 6,555,401
+tiny_yolo_body floatops _ 43,577,757 totalparams _ 8,720,134
+tiny_yolo_body(3 scale) floatops _ 50,017,614 totalparams _ 10,010,577
+mobilenet floatops _ 111,742,796 totalparams _ 24,286,881
+yolo floatops _ 308,208,831 totalparams _ 61,678,657
